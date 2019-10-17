@@ -1,0 +1,6 @@
+from flask import Flask
+app = Flask(helloflasknapier)
+
+@app.route('/')
+def hello_world():
+return 'Hello Napier Flask:'
